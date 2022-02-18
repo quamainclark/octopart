@@ -1,0 +1,23 @@
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-150px, -150px);
+}
+
+.form {
+  width: 300px;
+  height: 300px;
+  border: 3px solid #000;
+  padding: 10px;
+  position: relative;
+}
+
+.form input {
+  width: 60px;
+}
+
+.form div {
+  position: absolute;
+  bottom: 10px;
+}

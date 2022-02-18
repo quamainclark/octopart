@@ -1,0 +1,30 @@
+{
+  "author": "Mark Lindsay <mark@octopart.com>",
+  "dependencies": {
+    "next": "^9.5.5",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "description": "Frontend Exercise",
+  "devDependencies": {
+    "@types/node": "^13.13.52",
+    "@types/react": "^16.14.23",
+    "@types/react-dom": "^16.9.14",
+    "typescript": "^3.9.10"
+  },
+  "homepage": "https://github.com/octopart/frontend-exercise",
+  "license": "UNLICENSED",
+  "name": "frontend-exercise",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octopart/frontend-exercise.git"
+  },
+  "scripts": {
+    "build": "next build",
+    "dev": "next",
+    "start": "next start",
+    "verify": "tsc"
+  },
+  "version": "1.0.0"
+}
