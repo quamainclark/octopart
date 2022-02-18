@@ -56,7 +56,7 @@ const Index = () => {
     
     const numStartTime = strToMins(startTime)
     const numEndTime = strToMins(endTime)
-    const numElapsedTime = numEndTime - numStartTime ? numEndTime - numStartTime : numEndTime - numStartTime + 24 * 60
+    const numElapsedTime = numEndTime - numStartTime > 0 ? numEndTime - numStartTime : numEndTime - numStartTime + 24 * 60
     setElapsedTime(minsToHours(numElapsedTime))
   }
 
